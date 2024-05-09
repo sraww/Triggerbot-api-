@@ -1,37 +1,26 @@
 # Valorant-Triggerbot
 The fastest python triggerbot for Valorant.
 
-## About
-The reaction time of the bot is extremely fast as it is optimized for speed and only limited by your monitor refresh rate.
+Время реакции бота чрезвычайно быстрое, поскольку оно оптимизировано по скорости и ограничено только частотой обновления вашего монитора.
 
-e.g. It will search 144 times per second on a 144hz monitor
+например Он будет выполнять поиск 144 раза в секунду на мониторе с частотой 144 Гц.
 
-## Features
-- red or purple enemies
-- auto counterstrafe
-- hold or toggle modes
-- any custom keybind
-- auto install dependencies
+## Функции
+- красные или фиолетовые враги
+- автоматический контрстрейф
+- удерживать или переключать режимы
+- любая пользовательская комбинация клавиш
+- автоматическая установка зависимостей
 
-## Preview
-![Picture](https://i.ibb.co/N9cGj7J/preview.png)
+## Предварительный просмотр
+![Изображение](https://i.ibb.co/N9cGj7J/preview.png)
 
-## Usage
-1. First run Unique.py to make the triggerbot file unique and avoid possibly getting banned.
-1. Run prefire.py and follow the setup for first time usage.
-2. Trigger key and mode are saved in config.txt.
+## Использование
+1. Сначала запустите Unique.py, чтобы сделать файл триггербота уникальным и избежать возможного бана.
+1. Запустите prefire.py и выполните настройку для первого использования.
+2. Ключ и режим триггера сохраняются в config.txt.
 
-### Get Python
-If you dont have python installed, download the latest python version
-and make sure you click on the 'ADD TO PATH' option during
-the installation.
-
-#### FAQ
-Will I get banned using this?
-
-- highly unlikely as long as you run Unique.py
-- (I have not been banned in over 4 months of using this)
-
-Why am I releasing this?
-
-- I use another triggerbot I coded in c++ which is faster and better lol
+### Получить Python
+Если у вас не установлен Python, загрузите последнюю версию Python.
+и убедитесь, что вы нажали опцию «ДОБАВИТЬ В ПУТЬ» во время
+установка.
