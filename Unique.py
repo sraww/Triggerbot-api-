@@ -1,8 +1,6 @@
 from os import system, _exit, path, urandom
 
 system("mode 80,18 & title Unique & powershell $H=get-host;$W=$H.ui.rawui;$B=$W.buffersize;$B.width=80;$B.height=9999;$W.buffersize=$B;")
-
-
 def exit_():
     system("echo Press any key to exit . . . & pause >nul")
     _exit(0)
