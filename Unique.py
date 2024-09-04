@@ -7,7 +7,6 @@ def exit_():
     system("echo Press any key to exit . . . & pause >nul")
     _exit(0)
 
-
 ERROR = "\x1b[38;5;255m[\x1b[31m-\x1b[38;5;255m]"
 SUCCESS = "\x1b[38;5;255m[\x1b[32m+\x1b[38;5;255m]"
 
