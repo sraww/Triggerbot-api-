@@ -1,6 +1,6 @@
 from os import system, _exit
 
-system("mode 80,18 & title Prefire & powershell $H=get-host;$W=$H.ui.rawui;$B=$W.buffersize;$B.width=80;$B.height=9999;$W.buffersize=$B;")
+system("mode 80,18 & title Prefire & powershell $H=get-host;$W=$H.ui.rawui;$B=$W.buffersize;$B.width=80;$B.height=9999;$W.buffersize=$B;");
 
 from time import sleep, perf_counter
 from ctypes import WinDLL
