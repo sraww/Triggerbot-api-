@@ -23,5 +23,3 @@ with open("prefire.py", "a") as f:
         f.write(f"\n#{urandom(16).hex()}")
 print(f"{SUCCESS} File was made unique.\n")
 exit_()
-
-
