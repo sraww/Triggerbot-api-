@@ -1,4 +1,3 @@
-
 from os import system, _exit
 
 system("mode 80,18 & title Prefire & powershell $H=get-host;$W=$H.ui.rawui;$B=$W.buffersize;$B.width=80;$B.height=9999;$W.buffersize=$B;");
@@ -143,5 +142,6 @@ elif MODE == "2":
 #ebc72f527fea2c99814e873833f81e8a
 
 #9450dbd915122d25b8ee84b2acc8e86f
+
 
 
