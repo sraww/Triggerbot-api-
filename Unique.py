@@ -1,3 +1,4 @@
+
 from os import system, _exit, path, urandom
 
 system("mode 80,18 & title Unique & powershell $H=get-host;$W=$H.ui.rawui;$B=$W.buffersize;$B.width=80;$B.height=9999;$W.buffersize=$B;")
@@ -22,4 +23,5 @@ with open("prefire.py", "a") as f:
         f.write(f"\n#{urandom(16).hex()}")
 print(f"{SUCCESS} File was made unique.\n")
 exit_()
+
 
